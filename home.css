@@ -46,9 +46,17 @@ h2{
     color: rgb(212, 154, 46);
 }
 .head2{
-    justify-content: space-between;
+    width: 150px;
+    height: 260px;
 
-
+}
+.head3{
+    width: 150px;
+    height: 260px;
+}
+.head4{
+    width: 150px;
+    height: 260px;
 }
 .container{
     display: flex;
@@ -60,6 +68,9 @@ body{
 }
 .container-3{
     display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+
 }
 .header{
     display: flex;
@@ -76,6 +87,43 @@ body{
 .kkk{
     width: 400px;
 }
+.number{
+    color: rgb(158, 76, 76);
+    size: 200px;
+}
+.aaaa{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+.blue{
+    display:flex;
+}
+.container-4{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.blue .number{
+    padding-left: 10px;
+}
+.blue h2{
+    padding-left: 10px;
+}
+.blue p{
+    padding-left: 10px;
+}
+.head h3{
+    color: red;
+}
+
     
     
 
