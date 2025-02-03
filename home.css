@@ -92,7 +92,7 @@ body{
     size: 200px;
 }
 .aaaa{
-    background-color: #000;
+    background-color: #b94444;
     color: #fff;
     padding: 10px 20px;
     cursor: pointer;
@@ -100,10 +100,16 @@ body{
     text-decoration:none;
     display: inline-block;
     font-size: 20px;
+    touch-action:black ;
+    border: none;
 
+}
+.aaaa:hover{
+    background-color: black;
 }
 .blue{
     display:flex;
+    margin-top: 50px;
 }
 .container-4{
     display: flex;
@@ -123,6 +129,16 @@ body{
 .head h3{
     color: red;
 }
+.news-item h3:hover{
+color: orange;
+}
+.p1:hover{
+    color: rgb(150, 36, 36);
+}
+.p2{
+    height: 200px;
+}
+
 
     
     
