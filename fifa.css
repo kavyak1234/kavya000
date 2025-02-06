@@ -1,6 +1,67 @@
-.blue{
-    background-color: rgb(35, 35, 124);
-    height: 50PX;
-    color: white;
+@import url("https:// fonts.googleapis.com/css2? family=poppins:wght@400;600;900&display=swap");
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(179.35deg,#a60081 0.56%, #6900bc 99.45%);
+    font-family: "poppins", sans-serif;
+}
+.fifa_main {
+    background: linear-gradient(90.06deg, #260044 0.05%, #000000 99.95%);
+    width: 1300px;
+    height: 800px;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    right: 50%;
+transform: translate(-50%, -50%);
+padding: 40px 70px;
+border-radius: 20px;
+box-shadow: 0 0 50px rgba(0,0,0,0.719);}
+
     
+    
+}
+.fifa_nav img {
+    width: 7rem;
+
+}
+.fifa_ nav .fifa link {
+    color:white;
+    display: flex;
+    gap: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.fifa_nav .fifa_link
+.text_pink{
+    color: #ff23ce;
+}
+.fifa_nav .fifa_link p:hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+.fifa_hero{
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 80px;
+}
+.fifa_hero h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: -60px;
+    background: linear-gradient(90deg, #ffffff 0%, #6401af);
+}
+.text3{
+    margin-top:200px ;
+    color: aqua;
+}
 
