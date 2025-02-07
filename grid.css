@@ -1,0 +1,38 @@
+.main{
+    border: 3px solid rgb(45, 45, 138);
+}
+.master{
+    height: 50vh;
+    display: grid;
+    width: 90vh;
+    margin-left: 30%;
+    margin-top: 10%;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+
+   }
+   body{
+    font-family: 'arial',sans-serif;
+   }
+   .main{
+    background-color: rgb(23, 23, 112);
+    color: ;
+   }
+   .main1{
+    grid-row-start: 1;
+    grid-row-end: 7;
+   }
+   .main2{
+    
+    grid-column-start: 2;
+    grid-column-end: 4;
+   }
+
+
+   
+   
+
+
+
+
