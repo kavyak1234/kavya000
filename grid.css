@@ -4,30 +4,62 @@
 .master{
     height: 50vh;
     display: grid;
-    width: 90vh;
+    width: 100vh;
     margin-left: 30%;
     margin-top: 10%;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
     padding: 20px;
+    background-color: rgb(28, 28, 116);
 
    }
    body{
     font-family: 'arial',sans-serif;
    }
-   .main{
-    background-color: rgb(23, 23, 112);
-    color: ;
-   }
+   
+
+
+   
    .main1{
-    grid-row-start: 1;
+    grid-row-start: 1; 
     grid-row-end: 7;
+    background-color: rgb(61, 189, 61);
    }
    .main2{
     
-    grid-column-start: 2;
+    grid-column-start: 2;            
     grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    background-color: rgb(61, 189, 61);
+
+    
    }
+   .main3{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: orange;
+   }
+   .main4{
+    grid-row-start: 5;
+    grid-row-end:7;
+    background-color: rgb(190, 45, 45);
+   }
+
+
+.main5{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 25vh;
+    background-color: rgb(190, 45, 45);
+
+}
+.main6{
+    grid-row-start: 3;
+    grid-row-end: 7;
+    background-color: rgb(61, 189, 61);
+
+}
 
 
    
