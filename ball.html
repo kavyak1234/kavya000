@@ -4,39 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>color change animatioin</title>
+    
     <style>
         .main{
-            height: 100px;
-            width: 100px;
-            border-radius: 50%;
-            background-color: blue;
-            position: relative;
-            animation: bounce 0.5s;
-            animation-direction: alternate;
-            animation-iteration-count: infinite;
+            background-image: url(./news-homepage-main/assets/images/photo-1487466365202-1afdb86c764e\ \(1\).jpeg);
+            height: 1000px;
+            width: 500Vh;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: fixed;
+            object-fit: fill;
+        
+        }
+    
+            
+    
+          
             
 
-        }
+        
         .background{
             width:100vw ;
             height: 300px;
             display: flex;
-            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           
+           
+            
 
         }
         @keyframes bounce{
             from{
-                top:200px;
+                
+                
+                top: 200px;
+
+            
+
             }
             to{
-                top:0px;
+                top: 0px;
             }
         }
+        
+        
+
+            
+        
+        .pic{
+            height: 250px;
+            width: 250px;
+            align-items: center;
+            display: flex;
+            margin-left:500px;
+            margin-bottom: 500px;
+            padding-bottom: 100%;
+            animation:bounce 0.5s;
+            animation-duration: 0.5s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            position: absolute;
+            margin-top: 300PX;
+
+        }
+        .platform{
+            height: 70px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+
+        }
+        .pic1{
+            height: 50%;
+            width: 50%;
+        }
+        
+        
+
+        
     </style>
 </head>
-<body>
-    <div class="background"></div>
+
+
+        
+    <img src="news-homepage-main/assets/football-157930_1280.webp" alt="" class="pic">
+    
+    <div class="platform"></div>
     <div class="main"></div>
+    
+</div>
+   
     
 </body>
 </html>
