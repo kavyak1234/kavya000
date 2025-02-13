@@ -1,0 +1,31 @@
+.pic1{
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    display: flex;
+    margin-left: 700px;
+    margin-bottom: 150px;
+    padding-bottom: 100%;
+    position: absolute;
+    margin-top: 700px;
+    padding-bottom: 100%;
+    animation:bounce 0.5s;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite ;
+
+
+    
+}
+.pic2{
+    
+    background-image: url(news-homepage-main/assets/pngtree-color-icon---football-goal-post-game-icon-penalty-vector-png-image_37947066.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: fill;
+    height: 800px;
+    width: 500vh;
+}
+
