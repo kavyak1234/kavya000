@@ -28,4 +28,6 @@
     height: 800px;
     width: 500vh;
 }
-
+.main :hover{
+    transform:skew(40deg);
+}
