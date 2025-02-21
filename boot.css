@@ -5,5 +5,16 @@ justify-content:space-evenly ;
     height: 70px;
     width: 100px;
     margin-top: 130px;
-    margin-left: 100PX;
+    
 }
+.button{
+    background-color:rgb(65, 153, 124);
+    color:white ;
+}
+.button2{
+    display: flex;
+    text-align: center;
+}
+
+
+
