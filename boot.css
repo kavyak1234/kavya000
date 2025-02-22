@@ -15,6 +15,31 @@ justify-content:space-evenly ;
     display: flex;
     text-align: center;
 }
+.rounded-start{
+    property:border-bottom-left-radius border-top-left-radius,
+    class:rounded-start,
+    values; (
+        null:(--#{$prefix}border-radius),
+        0:0,
+        1:var(--#{$prefix}border-radius-sm),
+        2:var(--#{$prefix}border-radius),
+        3:var(--#{$prefix}border-radius-lg),
+        4:var(--#{$prefix}border-radius-xl),
+        5:var(--#{$prefix}border-radius-xxl),
+        circle: 50%,
+        pill: var(--#{$prefix}border-radius-pill)
+        )
+
+    
+        
+    
+}
+
+
+
+
+    
+
 
 
 
